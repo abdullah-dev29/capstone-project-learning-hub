@@ -43,24 +43,12 @@ header {
     transition: all 0.3s ease;
 }
 
-.logo:hover {
-    background-color: #A0E081; /* darker green */
-    border: 2px solid #88D470; /* slightly darker border */
-    transform: scale(1.02);
-}
 .top__upper-logo  a {
     text-decoration: none;
     color: black;
     font-size: x-large;
     font-weight: bold;
     transition: all 0.5s ease;
-
-}
-.top__upper-logo a:hover {
-    text-decoration: none;
-    color: black;
-    font-size: xx-large;
-    font-weight: bolder;
 
 }
 
@@ -184,7 +172,7 @@ header {
     width: 250px;
     text-align: center;
     border-radius: 14px;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease;
 }
 .top__middle nav a:hover{
     text-decoration: none;
@@ -346,14 +334,6 @@ header {
 
 }
 
-.foot__upper-logo a:hover {
-    text-decoration: none;
-    color: black;
-    font-size: xx-large;
-    font-weight: bolder;
-
-}
-
 .foot__upper-logo {
     margin-left: 10px;
 }
@@ -396,4 +376,3 @@ header {
     background-color: #FFF8E7;
 
 }
-
