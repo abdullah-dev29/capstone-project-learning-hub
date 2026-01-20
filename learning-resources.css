@@ -1,0 +1,210 @@
+.lr__mid {
+    border-radius: 14px;
+    width: 100%;
+    height: 1500px;
+    margin-top: 10px;
+    background-image: url("assets/background3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+.lr__mid-upper {
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    background-image: url("assets/background3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+
+.lr__mid-upper--head {
+    width: 100%;
+    height: 175px;
+
+}
+
+.lr__mid-upper--head h2 {
+    width: 60%;
+    text-align: center;
+    font-size: 44px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.lr__mid-upper--head p {
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.lr__mid-upper--mid {
+    width: 100%;
+    height: 175px;
+}
+
+.lr__mid-upper--mid ul {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lr__mid-upper--mid ul li{
+    list-style: none;
+    font-size: 22px;
+    font-weight: bold;
+    border: 3px solid #A0E081;
+    background-color: #FFF8E7;
+    border-radius: 12px;
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.lr__mid-upper--mid ul li:hover{
+    list-style: none;
+    font-size: 24px;
+    font-weight: bolder;
+    border: 4px solid #A0E081;
+    background-color: #A0E081;
+    border-radius: 14px;
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+}
+
+.lr__mid-upper--mid ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.lr__mid-upper--mid ul li a abbr{
+    text-decoration: none;
+    color: black;
+}
+
+.lr__mid-middle {
+    width: 100%;
+    height: 175px;
+    margin-top: 10px;
+}
+
+.lr__mid-middle h2{
+    width: 60%;
+    text-align: center;
+    font-size: 44px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.lr__mid-middle p {
+    width: 40%;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.lr__mid-lower {
+    margin-top: 10px;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lr__mid-lower--child {
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+    background-image: url("assets/background3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.lr__mid-lower--child---content {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lr__mid-lower--child---content  p {
+    padding: 5px;
+    width: 80%;
+    height: 60%;
+    margin-top: 6px;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.lr__mid-lower--child---content  button {
+    border: 4px solid #A0E081;
+    border-radius: 14px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    width: 60%;
+    background-color: #FFF8E7;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+
+}
+
+.lr__mid-lower--child---content  button:hover {
+    border: 4px solid #A0E081;
+    border-radius: 16px;
+    padding: 6px;
+    text-align: center;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 800;
+    width: 60%;
+    background-color: #A0E081;
+    margin-bottom: 10px;
+
+
+}
+
+.lr__mid-lower--child---img.w3 {
+    width: 100%;
+    height: 50%;
+    background-image: url("assets/w3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+}
+.lr__mid-lower--child---img.site {
+    width: 100%;
+    height: 50%;
+    background-image: url("assets/websitebackground.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 200px;
+}

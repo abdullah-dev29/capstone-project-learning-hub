@@ -1,0 +1,146 @@
+.c__mid {
+    border: 3px solid black;
+    border-radius: 16px;
+    width: 70%;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 10px;
+    background-image: url("assets/background3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c__mid-upper {
+    width: 100%;
+    height: 80px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.c__mid-upper h2 {
+    width: 60%;
+    font-size: 44px;
+    margin: 10px;
+}
+
+.c__mid-upper p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.c__mid-middle {
+    border: 3px solid black;
+    border-radius: 16px;
+    width: 40%;
+    height: 620px;
+    margin: 0 auto;
+    background-color: #FFF8E7;
+}
+
+.c__mid-middle--form {
+    border-radius: 16px;
+    width: 90%;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 22px;
+    background-image: url("assets/background3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 10px;
+}
+
+.c__mid-middle--form fieldset {
+    width: 90%;
+    height: 98%;
+    padding: 15px;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.c__mid-middle--form fieldset legend {
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.c__mid-middle--form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 28px;
+}
+.c__mid-middle--form form > div {
+    width: 96%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.c__mid-middle--form form label {
+    font-size: 20px;
+    font-weight: 800;
+    width: 30%;
+}
+
+.c__mid-middle--form form input {
+    border: 3px solid #A0E081;
+    border-radius: 14px;
+    background-color: #FFF8E7;
+    text-align: center;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.c__mid-middle--form form textarea {
+    border: 3px solid #A0E081;
+    border-radius: 14px;
+    background-color: #FFF8E7;
+    text-align: center;
+    width: 70%;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.c__mid-middle--form form #name {
+    width: 30%;
+}
+
+.c__mid-middle--form form span {
+    font-size: 18px;
+    font-weight: 400;
+    width: 70%;
+    text-align: center;
+}
+
+.c__mid-middle--form form button {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FFF8E7;
+    border: 3px solid #A0E081;
+    border-radius: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #A0E081;
+    border: 4px solid #A0E081;
+    border-radius: 16px;
+    font-size: 22px;
+    font-weight: bolder;
+    transform: scale(1.05);
+}
